@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { TaskInput } from './components/TaskInputForm';
-import { TaskList } from './components/TaskList';
-import { ReportModal } from './components/ReportModal';
+import { TaskList } from './components/TaskListDisplay';
+import { ReportModal } from './components/DailyReportModal';
 import { Task } from './types';
 import { Layout, Calendar, Trash, AlertTriangle } from 'lucide-react';
 
