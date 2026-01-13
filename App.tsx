@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { TaskInput } from './components/TaskInput';
+import { TaskInput } from './components/TaskInputForm';
 import { TaskList } from './components/TaskList';
 import { ReportModal } from './components/ReportModal';
 import { Task } from './types';
